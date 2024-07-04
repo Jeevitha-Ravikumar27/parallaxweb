@@ -1,0 +1,71 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Lato",sans-serif;
+    color: #666;
+    line-height: 1.8em;
+
+}
+.pimg1{
+    background-image: url(beautiful-wallpaper-download-10.jpg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(beautiful-wallpaper-download-26.jpg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(beautiful-wallpaper-download-17.jpg);
+    min-height: 400px;
+}
+.pimg4{
+    background-image: url(beautiful-wallpaper-download-6.jpg);
+    min-height: 400px;
+}
+.pimg1,.pimg2,.pimg3,.pimg4{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.ptext{
+    top: 50%;
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.ptext1{
+    top: 50%;
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.textbg{
+    background-color: #666;
+    display: inline-block;
+    padding: 10px;
+}
+.rg{
+    background-color: black;
+    color: rgb(206, 117, 8);
+}
+.sec{
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #666;
+    color: #fff;
+}
